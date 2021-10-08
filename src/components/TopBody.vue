@@ -16,7 +16,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang='scss' scoped>
     .top-body{
         max-width: 100vw;
         height: 100vh;

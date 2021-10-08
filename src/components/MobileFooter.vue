@@ -28,9 +28,10 @@ export default {
 
 <style scoped>
     .m_footer{
+        width: 100vw;
+        height: 100%;
         position: absolute;
         top: 4350px;
-        width: 100vw;
         padding-bottom: 50px;
         background-color: hsl(233, 26%, 24%);
     }

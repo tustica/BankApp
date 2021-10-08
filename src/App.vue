@@ -3,6 +3,7 @@
     <MobileHeader v-if="isMobile()"/>
     <Header v-if="!isMobile()"/>
     <MobileTopBody v-if="isMobile()"/>
+    <MobileTopText v-if="isMobile()"/>
     <TopBody v-if="!isMobile()"/>
     <MobileWhyChoose v-if="isMobile()"/>
     <WhyChoose v-if="!isMobile()"/>
@@ -21,6 +22,7 @@ import Articles from './components/Articles.vue'
 import Footer from './components/Footer.vue'
 import MobileHeader from './components/MobileHeader.vue'
 import MobileTopBody from './components/MobileTopBody.vue'
+import MobileTopText from './components/MobileTopText.vue'
 import MobileWhyChoose from './components/MobileWhyChoose.vue'
 import MobileArticles from './components/MobileArticles.vue'
 import MobileFooter from './components/MobileFooter.vue'
@@ -35,6 +37,7 @@ export default {
     Footer,
     MobileHeader,
     MobileTopBody,
+    MobileTopText,
     MobileWhyChoose,
     MobileArticles,
     MobileFooter
@@ -59,6 +62,8 @@ html, body{
   overflow-x: hidden;
 }
 #app {
+  display: flex;
+  flex-direction: column;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
