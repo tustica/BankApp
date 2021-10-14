@@ -37,7 +37,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-        top: 750px;
+        top: 790px;
         height: 1500px;
         background-color: hsl(220, 16%, 96%);
         font-family: 'Public Sans', sans-serif;
